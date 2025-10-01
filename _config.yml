@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: Filippos homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Filippos Sofias
+description: Researcher in X
+url: https://filippossofias.github.io
+theme: minijekyll-theme-minimalma
+markdown: kramdown
