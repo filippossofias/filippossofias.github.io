@@ -86,21 +86,10 @@ exclude:
   - vendor/ruby/
 
 # =======================================#
-# -----JEKYLL SCHOLAR SETTINGS-----------#
+# -----SCHOLAR SETTINGS-----------#
 #========================================#
-# scholar:
-#   last_name: Dumbarton
-#   style: apa
-#   locale: en
-#   source: /_bibliography/
-#   bibliography: papers.bib
-#   bibliography_template: bib
-#   replace_strings: true
-#   join_strings: true
-#   details_dir: bibliography
-#   details_layout: bibtex.html
-#   details_link: 
-#   query: "@*"
+scholar:
+  last_name: Sofias # Bold the name
 
 # =======================================#
 # ------------CDN SETTINGS---------------#
@@ -121,6 +110,3 @@ norton-safeweb:                                   # <meta name="norton-safeweb-s
 detectphone: yes                                  # yes or no. Disable automatic detection and formatting of possible phone numbers 
 x-dns-prefetch-control: on                        # on or off. Completely opt out of DNS prefetching by setting to "off"
 fbappid:                                          # Facebook OpenGraph 
-
-scholar:
-  last_name: Sofias

@@ -60,7 +60,6 @@ layout: default
               <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel">
                 <p><i>{{section.description}}</i></p>
                 <p class="card-text">
-                  {% comment %} {% bibliography -f papers %} {% endcomment %}
                   {%- assign pubs = site.data.papers | sort: "year" | reverse -%}
                   {%- for entry in pubs -%}
                     {%- include publication_item.html entry=entry -%}

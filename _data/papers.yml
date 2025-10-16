@@ -1,30 +1,26 @@
 # _data/papers.yml
-- key: sofias2024coolpaper
-  type: article
-  title: "A Cool Paper"
+# _data/papers.yml
+- key: oygenblik2026zen
+  type: inproceedings
+  abbr: NDSS
+  tag: zen
+  title: "Achieving Zen: Combining Mathematical and Programmatic Deep Learning Model Representations for Attribution and Reuse"
   author_array:
-    - { first: "Filippos", last: "Sofias" }
-    - { first: "Ada",    last: "Lovelace" }
-  journal: "Journal of Cool Stuff"
-  booktitle: ""          # leave empty unless it's an inproceedings
-  year: 2024
-  arxiv: "2401.01234"
-  html: "https://example.com/paper"
-  pdf:  "coolpaper.pdf"  # lives at assets/pdf/coolpaper.pdf
-  supp: ""
-  poster: ""
-  slides: ""
-  code: "https://github.com/you/repo"
-  website: "https://example.com/project"
-  abstract: "We do cool things with Jekyll-free bibliographies."
+    - { first: "D.", last: "Oygenblik" }
+    - { first: "D.", last: "Dermendzhiev" }
+    - { first: "F.", last: "Sofias" }
+    - { first: "M.", last: "Yao" }
+    - { first: "H.", last: "Xu" }
+    - { first: "R.", last: "Zhang" }
+    - { first: "J.", last: "Park" }
+    - { first: "A.", last: "Sikder" }
+    - { first: "B.", last: "Saltaformaggio" }
+  booktitle: "Proceedings of the 33rd Network and Distributed System Security (NDSS) Symposium"
+  address: "San Diego, California"
+  month: "February"
+  year: 2026
+  note: "To appear. Acceptance Rate: TBD"
+  pdf: "ZEN.pdf"                    # put file at assets/pdf/ZEN.pdf
+  # slides: "https://example.com/video" # using 'slides' so your template shows a button
+  code: "https://zenodo.org/records/17060060"
 
-- key: sofias2023thesis
-  type: thesis
-  title: "My Thesis Title"
-  author_array:
-    - { first: "Filippos", last: "Sofias" }
-  year: 2023
-  pdf: "thesis.pdf"
-  abstract: "A short abstract…"
-  # Optional if you keep the 'reference' branch:
-  reference: "<strong>My Thesis Title.</strong> University, 2023."
