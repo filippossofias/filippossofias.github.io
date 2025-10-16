@@ -1,0 +1,30 @@
+# _data/papers.yml
+- key: sofias2024coolpaper
+  type: article
+  title: "A Cool Paper"
+  author_array:
+    - { first: "Filippos", last: "Sofias" }
+    - { first: "Ada",    last: "Lovelace" }
+  journal: "Journal of Cool Stuff"
+  booktitle: ""          # leave empty unless it's an inproceedings
+  year: 2024
+  arxiv: "2401.01234"
+  html: "https://example.com/paper"
+  pdf:  "coolpaper.pdf"  # lives at assets/pdf/coolpaper.pdf
+  supp: ""
+  poster: ""
+  slides: ""
+  code: "https://github.com/you/repo"
+  website: "https://example.com/project"
+  abstract: "We do cool things with Jekyll-free bibliographies."
+
+- key: sofias2023thesis
+  type: thesis
+  title: "My Thesis Title"
+  author_array:
+    - { first: "Filippos", last: "Sofias" }
+  year: 2023
+  pdf: "thesis.pdf"
+  abstract: "A short abstract…"
+  # Optional if you keep the 'reference' branch:
+  reference: "<strong>My Thesis Title.</strong> University, 2023."
