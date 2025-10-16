@@ -692,3 +692,11 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   font-family: Proxima;
   margin: 5% 0 0 15%;
 }
+
+@media (max-width: 990px) {
+  .blogcard {
+    margin: 20px auto;   /* centers it horizontally */
+    width: calc(100% - 40px);  /* prevent it from being slightly wider than the screen */
+    padding: 14px 24px 18px 24px; /* even out left/right padding */
+  }
+}
