@@ -1,0 +1,21 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+_README.md
+_LICENSE.md
+
+# Ignore local bundle installs
+/vendor/
+.bundle/
+
+# Ignore OS & editor junk
+.DS_Store
+Thumbs.db
+
+# Ignore Ruby dependencies
+Gemfile.lock
+
+# Ignore any log or temp files
+*.log
+*.tmp
+*.swp
