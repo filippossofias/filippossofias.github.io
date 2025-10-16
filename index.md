@@ -3,7 +3,6 @@ layout: home
 title: 
 date: 2020-11-20 
 ---
-.
 
 ### Hi, I'm Filippos Sofias 👋
 I am a first-year Ph.D. student in the School of Cybersecurity and Privacy at the Georgia Institute of Technology, advised by Professor Brendan Saltaformaggio.
