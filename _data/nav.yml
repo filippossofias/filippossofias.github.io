@@ -1,0 +1,11 @@
+nav_list_title: Navigation List
+links:
+
+- title: Publications
+  url: publications.html
+
+- title: CyFI Lab
+  url: https://cyfi.ece.gatech.edu/
+
+- title: Contact
+  url: contact.html

@@ -3,6 +3,7 @@ _site/
 .jekyll-cache/
 _README.md
 _LICENSE.md
+.vscode/
 
 # Ignore local bundle installs
 /vendor/

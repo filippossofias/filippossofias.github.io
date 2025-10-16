@@ -1,0 +1,5 @@
+- name: Publications
+  id: publications
+  description: Conference and Workshop Publications
+  url: publications.html
+  first: true
